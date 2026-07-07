@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-07-07T12:00:00+09:00",
+  "user": {
+    "name": "青木 大芽",
+    "interests": [
+      "AI",
+      "Taiga OS",
+      "自作AIエージェント",
+      "アプリ開発",
+      "音楽",
+      "ファッション",
+      "サッカー"
+    ],
+    "working_style": [
+      "具体的な設計を好む",
+      "スマホ中心で使える仕組みを重視する",
+      "抽象論より実装手順を求める",
+      "プロンプトや設計書として再利用できる回答を好む"
+    ]
+  },
+  "active_projects": [
+    {
+      "name": "Taiga OS",
+      "status": "active",
+      "goal": "自分専用AIエージェントとして、チャット、タスク、予定、朝レポート、AI研究、外部AI連携を統合する",
+      "current_focus": [
+        "Obsidianを複数AIの共有記憶にする",
+        "複数AIの書き込みをMemory Candidateとして受ける",
+        "Taiga OSが確定記憶を読み取る",
+        "Memory Managerで記憶候補を審査する"
+      ]
+    },
+    {
+      "name": "Obsidian AI Second Brain",
+      "status": "active",
+      "goal": "複数AIがユーザー情報、好み、プロジェクト情報を共有できるAI用セカンドブレインを作る",
+      "current_focus": [
+        "Vault構成の固定",
+        "Memory Candidate形式の統一",
+        "Taiga OSの読み取り設計",
+        "context_pack.jsonの自動生成"
+      ]
+    }
+  ],
+  "memory_rules": [
+    "AI_INBOXの情報は未確定として扱う",
+    "CANONICAL_MEMORYを優先する",
+    "未確認情報を確定記憶として扱わない",
+    "機密情報は記憶化しない",
+    "privacy_level=sensitiveは自動承認しない",
+    "confidence=lowは自動承認しない"
+  ]
+}
